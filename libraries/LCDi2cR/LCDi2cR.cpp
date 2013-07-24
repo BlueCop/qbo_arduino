@@ -16,7 +16,7 @@
 
 #include <inttypes.h>
 
-#include "WConstants.h"  //all things wiring / arduino
+#include "Arduino.h"  //all things wiring / arduino
 
 #define _LCDEXPANDED				// If defined turn on advanced functions
 
@@ -136,7 +136,7 @@ void LCDi2cR::command(uint8_t value) {
 // [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 
 
-void LCDi2cR::write(uint8_t value) {
+size_t LCDi2cR::write(uint8_t value) {
 	
 	// This display maps custom characters from 128-135 Dec, most displays map them to 0-7 so lets remap them for compatibility
 	

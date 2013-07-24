@@ -1,3 +1,5 @@
+#include <IRbeanSerial.h>
+
 /*********************************************************************
  *
  * Software License Agreement (BSD License)
@@ -40,7 +42,7 @@
 #define ArduBot_h
 
 #include <inttypes.h>
-#include <WProgram.h> 
+#include <Arduino.h> 
 //---------------includes de las librerias usadas--------------//
 #include <I2C.h>
 #include <LCDi2cR.h>

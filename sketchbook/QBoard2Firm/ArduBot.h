@@ -2,7 +2,7 @@
 #define ArduBot_h
 
 #include <inttypes.h>
-#include <WProgram.h> 
+#include <Arduino.h> 
 //---------------includes de las librerias usadas--------------//
 #include <ServoTimeTimer1.h>
 #include <ServoTimer2.h>

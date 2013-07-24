@@ -38,7 +38,7 @@
 
 #include "serialProtocol.h"
 #include <inttypes.h>
-#include <WProgram.h> 
+#include <Arduino.h> 
 
 using namespace arduBotSerial;
 
