@@ -41,7 +41,7 @@
 
 #include <inttypes.h>
 #include <avr/io.h>
-#include <WProgram.h>
+#include <Arduino.h>
 #include <avr/pgmspace.h>
 #include <util/atomic.h>
 

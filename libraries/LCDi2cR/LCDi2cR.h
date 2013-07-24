@@ -22,7 +22,7 @@ public:
 
   void setDelay(int,int);
 
-  virtual void write(uint8_t);
+  virtual size_t write(uint8_t);
 
   void clear();
   

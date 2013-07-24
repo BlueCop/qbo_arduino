@@ -1,6 +1,6 @@
 #include <ServoTimeTimer1.h>
 #include <avr/interrupt.h>
-#include <wiring.h>
+#include <Arduino.h>
 
 /*
   ServoTimeTimer1 - Hardware serial library based on ServoTimer1 by Jim Studt, jim@federated.com
